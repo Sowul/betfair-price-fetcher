@@ -1,5 +1,5 @@
 # betfair-price-fetcher
-A couple of scripts for fetching prices at regular intervals up to a given event time. You can use it for algorithmic trading. Samples are geared towards getting preplay data but you can modify code to catch inplay events too.<br>
+A couple of scripts for fetching prices at regular intervals up to a given event time. You can use it for algorithmic trading. Samples are geared towards getting preplay data but you can modify code to catch inplay events too.<br><br>
  __Disclaimer:__ I accepts no responsibility or liability for any losses which may be incurred by any person or persons using the whole or part of the contents of this software, i.e. don't blame me for lost money.<br>
 
 ## API Key and cers
@@ -8,8 +8,8 @@ A couple of scripts for fetching prices at regular intervals up to a given event
 
 ## Prerequisites
 Only 2 reqs, you can get them directly here:
-⋅⋅* https://github.com/jmcarp/betfair.py
-⋅⋅* https://github.com/PyMySQL/PyMySQL
+* https://github.com/jmcarp/betfair.py
+* https://github.com/PyMySQL/PyMySQL
 
 Or use pip:
 ```
@@ -62,13 +62,13 @@ $ csvcut races_dump.csv | head -n 10
 Betfair charts ain't fun, right?
 ![Screenshot](img/bf_chart.png)
 
-For instance, we can plot prices using our data and get some insights about markets.
+For instance, we can plot prices using our data and get some insights about markets:
+* market
 
-Whole market
 ![Screenshot](img/scraper_market.png)
+* one runner
 
-Specified runner
 ![Screenshot](img/scraper_runner.png)
 
-I used python and plot.ly to get nice and interactive chart:
+Interactive graph (python and [plotly](https://plot.ly/)):
 ![](img/peek.gif)
