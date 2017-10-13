@@ -2,7 +2,7 @@
 A couple of scripts for fetching prices at regular intervals up to a given event time. You can use it for algorithmic trading. Samples are geared towards getting preplay data but you can modify code to catch inplay events too.<br><br>
  __Disclaimer:__ I accepts no responsibility or liability for any losses which may be incurred by any person or persons using the whole or part of the contents of this software, i.e. don't blame me for lost money.<br>
 
-## API Key and cers
+## API Key and certs
 1. Keys aren't free anymore, you need to pay for them :( Go [here](http://docs.developer.betfair.com/docs/display/1smk3cen4v3lu3yomq5qye0ni/Application+Keys).
 2. Create certs and put them into certs dir. Go [here](http://docs.developer.betfair.com/docs/display/1smk3cen4v3lu3yomq5qye0ni/Non-Interactive+%28bot%29+login).
 
